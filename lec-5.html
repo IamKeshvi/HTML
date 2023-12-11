@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <h1>STUDENT REGISTRATION FORM</h1>
+            <hr>
+            <hr><br>
+
+            <!----- First Name ---------------------------------------------------------->
+            <label for="FirstName">FIRST NAME : </label>
+            <input type="text" placeholder="Your First Name" maxlength="30" required />
+            (e.g. Devin)
+            <br><br>
+            <hr><br>
+
+            <!----- Last Name ---------------------------------------------------------->
+            <label for="LastName">LAST NAME : </label>
+            <input type="text" placeholder="Your Last Name" maxlength="30" required />
+            (e.g. Jacobs)
+            <br><br>
+            <hr><br>
+
+            <!-- Date of Birth -->
+            <label for="DOB">DATE OF BIRTH : </label>
+            <input type="date" placeholder="DD-MM-YYYY" required>
+            <br><br>
+            <hr><br>
+
+            <!----- Email Id ---------------------------------------------------------->
+            <label for="Email">EMAIL ID : </label>
+            <input type="Email" placeholder="Your Email" required />
+            (e.g. devinjacobs123@gmail.com)
+            <br><br>
+            <hr><br>
+
+            <!----- Password --------------------------------------------------------->
+            <label for="password">PASSWORD : </label>
+            <input type="password" placeholder="Enter Password"><br><br>
+            <hr><br>
+
+            <!----- Mobile Number ---------------------------------------------------------->
+            <label for="MobileNumber">MOBILE NUMBER : </label>
+            <input type="number" placeholder="Your Mobile Number" maxlength="10" required />
+            (+91 1234567898)
+            <br><br>
+            <hr><br>
+
+            <!----- Gender ----------------------------------------------------------->
+            <label for="Gender">GENDER : </label>
+            <input type="radio" name="Gender" value="Male" />Male
+            <input type="radio" name="Gender" value="Female" />Female
+            <br><br>
+            <hr><br>
+
+            <!----- Address ---------------------------------------------------------->
+            <label for="Address">ADDRESS : </label><br>
+            <textarea name="Address" rows="4" cols="30"></textarea>
+            <br><br>
+            <hr><br>
+
+            <!----- City ---------------------------------------------------------->
+            <label for="City">CITY : </label>
+            <input type="text" name="City" maxlength="30" />
+            <br><br>
+            <hr><br>
+
+            <!----- Pin Code ---------------------------------------------------------->
+            <label for="Pin">PIN CODE : </label>
+            <input type="text" name="Pin_Code" maxlength="6" />
+            <br><br>
+            <hr><br>
+
+            <!----- State ---------------------------------------------------------->
+            <label for="State">STATE : </label>
+            <input type="text" name="State" maxlength="30" />
+            <br><br>
+            <hr><br>
+
+            <!----- Country ---------------------------------------------------------->
+            <label for="Country">COUNTRY</label>
+            <select>
+                <option value="India">INDIA</option>
+                <option value="Canada">CANADA</option>
+                <option value="China">CHINA</option>
+                <option value="Japan">JAPAN</option>
+                <option value="Rasia">RASIA</option>
+
+            </select>
+            <br><br>
+            <hr><br>
+
+            <!----- Hobbies ---------------------------------------------------------->
+            <label for="Hobbies">HOBBIES</label><br>
+            <input type="checkbox" name="Hobby_Drawing" value="Drawing" />Drawing<br>
+            <input type="checkbox" name="Hobby_Singing" value="Singing" />Singing<br>
+            <input type="checkbox" name="Hobby_Dancing" value="Dancing" />Dancing<br>
+            <input type="checkbox" name="Hobby_ Sketching" value=" Sketching" /> Sketching<br>
+            <input type="checkbox" name="Hobby_Other" value="Other">Others<br>
+            <input type="text" name="Other_Hobby" maxlength="30" />
+            <br><br>
+            <hr><br>
+
+            <!----- Favourite Color -------------------------------------------------->
+            <label for="">Choose Your Favourite Color : </label>
+            <input type="color"><br><br>
+            <hr><br>
+
+            <!----- Course ---------------------------------------------------------->
+            <label for="Course">COURSES</label><br>
+            <input type="radio" name="BCA" value="BCA">BCA
+            <input type="radio" name="BCom" value="B.Com">B.Com
+            <input type="radio" name="BSc" value="B.Sc">B.Sc
+            <input type="radio" name="BA" value="B.A">B.A
+            <br><br>
+            <hr><br>
+
+            <!----- Submit and Reset ------------------------------------------------->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <br><br>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
